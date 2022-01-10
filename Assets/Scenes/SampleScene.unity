@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -299,7 +299,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -954,6 +954,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a07be69b2c2ef824f82446e1e0dc9bcc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  topTransform: {fileID: 9052859292838548219}
+  goalTransform: {fileID: 3913247483144552768}
+  helixLevelPrefabs: {fileID: 2289362859972465321, guid: c1d9ef728453d1d49a73ed17aae9b890, type: 3}
+  allStages:
+  - {fileID: 11400000, guid: 5262561b07a43fc49a1e864da1c8261c, type: 2}
+  helixDistance: 0
 --- !u!4 &3913247483144552768 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6466715030553190790, guid: 2c1c414c098ea524b94a8ee0de205233, type: 3}
