@@ -21,22 +21,22 @@ MonoBehaviour:
   - partCount: 7
     deathPartCount: 2
   - partCount: 10
-    deathPartCount: 4
+    deathPartCount: 3
   - partCount: 9
-    deathPartCount: 5
-  - partCount: 11
-    deathPartCount: 5
+    deathPartCount: 1
   - partCount: 11
     deathPartCount: 3
+  - partCount: 11
+    deathPartCount: 2
   - partCount: 8
-    deathPartCount: 6
+    deathPartCount: 2
   - partCount: 8
+    deathPartCount: 1
+  - partCount: 10
+    deathPartCount: 1
+  - partCount: 10
     deathPartCount: 4
   - partCount: 10
-    deathPartCount: 8
-  - partCount: 10
-    deathPartCount: 4
-  - partCount: 10
-    deathPartCount: 9
+    deathPartCount: 3
   - partCount: 7
-    deathPartCount: 4
+    deathPartCount: 2

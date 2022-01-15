@@ -777,6 +777,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 801429488}
   impulseForce: 5.5
+  perfectPast: 0
+  superSpeed: 10
 --- !u!1 &801869272
 GameObject:
   m_ObjectHideFlags: 0
