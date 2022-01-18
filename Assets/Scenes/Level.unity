@@ -958,6 +958,7 @@ MonoBehaviour:
   perfectPast: 0
   perfectPastCount: 3
   superSpeed: 15
+  splash: {fileID: 6196485915055338584, guid: 8c2a2e1b81925494284fa503b2634b48, type: 3}
 --- !u!1 &801869272
 GameObject:
   m_ObjectHideFlags: 0

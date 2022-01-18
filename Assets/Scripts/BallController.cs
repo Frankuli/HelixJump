@@ -16,6 +16,7 @@ public class BallController : MonoBehaviour
     public int perfectPastCount;
     public float superSpeed = 8;
 
+    public GameObject splash;
 
 
 
@@ -27,6 +28,8 @@ public class BallController : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
+        AddSplash(collision);
+
         if (ignoreNextCollision)
         {
             return;
@@ -74,6 +77,20 @@ public class BallController : MonoBehaviour
     public void ResetBall()
     {
         transform.position = starPosition;
+    }
+
+    public void AddSplash(Collision collision)
+    {
+        GameObject newSplash;
+        newSplash = Instantiate(splash);
+
+        newSplash.transform.SetParent(collision.transform);
+
+        newSplash.transform.position = new Vector3( this.transform.position.x, 
+                                                    this.transform.position.y-0.11f,        
+                                                    this.transform.position.z );
+
+        Destroy(newSplash, 3);
     }
 
 }
